@@ -183,4 +183,25 @@ button:hover {
     display: block;
     font-size: 2em;
     margin-bottom: 10px;
+}
+
+.progress-container {
+    margin-top: 8px;
+    width: 100%;
+    background-color: #f0f2f5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 4px;
+    background-color: #1a73e8;
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 4px;
+    text-align: right;
 } 
